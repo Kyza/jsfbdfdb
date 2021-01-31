@@ -23,7 +23,7 @@ download(
 		const bdfdb = fs.readFileSync("./0BDFDB.plugin.js", "utf-8");
 
 		console.log("Converting is JSF...");
-		const jsfbdfdb = JSFuck.encode(bdfdb);
+		const jsfbdfdb = JSFuck.encode(bdfdb, true, true);
 
 		console.log("Cleaning up previous file...");
 		try {
