@@ -1,0 +1,22 @@
+dependencies:
+  decomment: 0.9.3
+lockfileVersion: 5.2
+packages:
+  /decomment/0.9.3:
+    dependencies:
+      esprima: 4.0.1
+    dev: false
+    engines:
+      node: '>=6.4'
+      npm: '>=2.15'
+    resolution:
+      integrity: sha512-5skH5BfUL3n09RDmMVaHS1QGCiZRnl2nArUwmsE9JRY93Ueh3tihYl5wIrDdAuXnoFhxVis/DmRWREO2c6DG3w==
+  /esprima/4.0.1:
+    dev: false
+    engines:
+      node: '>=4'
+    hasBin: true
+    resolution:
+      integrity: sha512-eGuFFw7Upda+g4p+QHvnW0RyTX/SVeJBDM/gCtMARO0cLuT2HcEKnTPvhjV6aGeqrCB/sbNop0Kszm0jsaWU4A==
+specifiers:
+  decomment: ^0.9.3

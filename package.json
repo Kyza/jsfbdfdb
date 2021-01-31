@@ -1,0 +1,21 @@
+{
+	"name": "jsfbdfdb",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "node --max-old-space-size=8192 index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Kyza/jsfbdfdb.git"
+	},
+	"author": "",
+	"bugs": {
+		"url": "https://github.com/Kyza/jsfbdfdb/issues"
+	},
+	"homepage": "https://github.com/Kyza/jsfbdfdb#readme",
+	"dependencies": {
+		"decomment": "^0.9.3"
+	}
+}
