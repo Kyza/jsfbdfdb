@@ -1,3 +1,3 @@
 # JSFBDFDB
 
-A project dedicated to automating the transpiling of a working BDFDB in JSFuck.
+A project for automating the transpiling of a working BDFDB in JSFuck.
