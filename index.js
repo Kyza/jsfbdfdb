@@ -14,12 +14,12 @@ function download(url, dest, cb) {
 	});
 }
 
-console.log("Downloading library.");
+console.log("Downloading library...");
 download(
 	"https://raw.githubusercontent.com/mwittrien/BetterDiscordAddons/master/Library/0BDFDB.plugin.js",
 	"0BDFDB.plugin.js",
 	() => {
-		console.log("Decommenting and saving...");
+		console.log("Saving library...");
 		const bdfdb = fs.readFileSync("./0BDFDB.plugin.js", "utf-8");
 
 		console.log("Converting is JSF...");
@@ -33,7 +33,7 @@ download(
 		console.log("Writing to 0JSFBDFDB.plugin.js...");
 		fs.writeFileSync(
 			"0JSFBDFDB.plugin.js",
-			bdfdb.match(/((?:\/\*\*).+?(?:\*\/))/is)[0],
+			bdfdb.match(/((?:\/\*\*).+?(?:\*\/))/is)[0] + "\n",
 			"utf-8"
 		);
 		fs.appendFileSync("0JSFBDFDB.plugin.js", jsfbdfdb, "utf-8");
